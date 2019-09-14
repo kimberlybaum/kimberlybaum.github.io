@@ -1,10 +1,123 @@
 html {
-    background-color: hsl(0, 2%, 89%)
+    background-color: rgb(252, 252, 252);
 }
 body {
-    width: auto;
     height: auto;
-    margin: 5%;
-    background-color: #f25353;
-    color: white;
+    margin: 0% 17%;
+    font-family: 'Muli', sans-serif;
+    color: rgb(43, 43, 58);
+}
+
+p {
+    padding: 16px;
+    width: 90%;
+    margin: 0px;
+    text-align:left;
+}
+p a {
+    text-decoration: none;
+    height: 2em;
+    font-size: 23pt;
+    letter-spacing: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+main {
+    width: auto;
+    margin: auto;
+}
+
+main p{ 
+    padding-top: 30px;
+    font-size: 12pt;
+    width: auto;
+    line-height: 18pt;
+
+}
+
+h1 a:hover{
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    height:auto;
+    margin-bottom: 0px;
+}
+main div.text{
+    width:auto;
+    margin: auto;
+    text-align: center;
+}
+
+div.fp_image {
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+img.fp_image {
+    width: auto;
+    height: 45%;
+    text-align: center;
+    radius: .1em;
+}
+
+hr{
+    padding: 0px;
+    margin: 0px auto;
+    color: hsl(0, 2%, 89%);
+}
+
+a {
+    color: rgb(43, 43, 58);
+    font-size: 13pt;
+    padding: 16px 16px 0px 16px;
+    margin: auto 10px 0px 10px;
+    height: 1em;
+    width: auto;
+    margin-right: 10px;
+    height: 2em;
+    text-align: right;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+div.contact-links{
+    padding: 30px 0%;
+    width: auto;
+    margin: 0px;
+}
+
+div.contact-links p{
+    text-align:left;
+    width: auto;
+    margin: 0px auto;
+}
+
+div.contact-links p a {
+    font-size: 16pt;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    width: auto;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.gallery img{
+    width: 46%;
+    padding: 1%;
+    height: auto;
 }
