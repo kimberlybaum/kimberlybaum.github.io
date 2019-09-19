@@ -121,3 +121,11 @@ div.gallery img{
     padding: 1%;
     height: auto;
 }
+
+p#intro a {
+    font-size: 12pt;
+    line-height: 18pt;
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+}
