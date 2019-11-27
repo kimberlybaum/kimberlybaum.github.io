@@ -60,7 +60,7 @@ img.fp_image {
     width: auto;
     height: 45%;
     text-align: center;
-    radius: .1em;
+    border-radius: .1em;
 }
 
 hr{
@@ -161,9 +161,6 @@ p#intro a {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
