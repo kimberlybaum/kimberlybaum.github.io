@@ -125,7 +125,23 @@ div.gallery img{
 #projects{
     margin-top: 40px;
     width: auto;
-    padding: 20px;
+}
+
+#projects div h2{
+    margin-left: 15px;
+}
+
+main p{
+    word-wrap: break-word;
+}
+
+main#project div p {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    text-align: left;
+    width: auto;
+    word-wrap: break-word;
 }
 
 img.project-image{
