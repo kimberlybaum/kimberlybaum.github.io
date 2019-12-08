@@ -122,6 +122,33 @@ div.gallery img{
     height: auto;
 }
 
+#projects{
+    margin-top: 40px;
+    width: auto;
+    padding: 20px;
+}
+
+img.project-image{
+    width: 45vw;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 5vw;
+}
+
+#projects div a{
+    font-size: 12pt;
+    font-style: italic;
+}
+
+img.project-image2{
+   height: 50vh;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    padding: 20px;
+}
+
 p#intro a {
     font-size: 12pt;
     line-height: 18pt;
